@@ -18,13 +18,7 @@
 | [ashendrasharma/Stock-Price-Prediction-Using-LSTM](https://github.com/ashendrasharma/Stock-Price-Prediction-Using-LSTM) |  LSTM на ценах AAPL, MinMax scaling, окно 60 дней |
 | [034adarsh/Stock-Price-Prediction-Using-LSTM](https://github.com/034adarsh/Stock-Price-Prediction-Using-LSTM) |LSTM на ценах AAPL + yfinance, dropout-регуляризация |
 
-Оба проекта используют одну модель (LSTM), цены закрытия как таргет, только MAE/RMSE как метрики и не сравнивают результат с baseline. Это оставляет открытыми вопросы:
-
-- А действительно ли LSTM лучше простой линейной регрессии?
-- А что, если просто предсказывать `P_t = P_{t-1}`?
-- Почему именно нейросеть, а не классический ARIMA?
-
-Этот проект отвечает на эти вопросы через прямое сравнение.
+Оба проекта используют одну модель (LSTM), цены закрытия как таргет, только MAE/RMSE как метрики и не сравнивают результат с baseline.
 
 ## Что добавлено по сравнению с источниками
 
