@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data caches (yfinance иногда кеширует)
+*.cache
+yfinance.cache
+
+# Output / temporary files
+*.log
+*.csv
+*.pkl
+*.h5
+*.keras
+
+# но сохраним лицензию и README
+!LICENSE
+!README.md
